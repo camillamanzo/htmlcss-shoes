@@ -13,6 +13,7 @@ nav a
     margin: 10px 5px;
     border-radius: 25px;
     background-color: white;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 a{
@@ -29,21 +30,34 @@ nav{
     margin-right: 10px;
 }
 
-#red-bg>img,
-#green-bg>img,
-#yellow-bg>img{
-    height: 600px;
-    width: 800px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .full-page{
     height: 100vh;
     width: 100vw;
     position: relative;
+}
+
+.text{
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    color: yellow;
+    width: 500px;
+    text-align: center;
+}
+
+#red-bg>img,
+#green-bg>img,
+#yellow-bg>img{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #red-bg{
@@ -57,3 +71,10 @@ nav{
 #yellow-bg{
     background-color: yellow;
 }
+
+#green-text{
+    color: green;
+}
+
+
+
