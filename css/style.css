@@ -4,23 +4,23 @@
     box-sizing: border-box;
 }
 
-nav li,
-nav a
-{
-    display: inline-block;
+nav ul li a{
     text-decoration: none;
-    padding: 0px 6px 5px;
-    margin: 10px 5px;
-    border-radius: 25px;
-    background-color: white;
-    font-family: 'Titillium Web', sans-serif;
+    color: black;
 }
 
-a{
-    height: 15px;
-    width: 15px;
+nav li{
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 20px 20px 0 0;
+    line-height: 40px;
     text-align: center;
-    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 1px 1px 5px black;
 }
 
 nav{
@@ -28,7 +28,6 @@ nav{
     z-index: 3;
     right: 5px;
     top: 5px;
-    margin-right: 10px;
 }
 
 .full-page{
